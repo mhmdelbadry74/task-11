@@ -43,5 +43,9 @@
                 {{ __('Log in') }}
             </x-primary-button>
         </div>
+
+        <div class="form-group share">
+            <a href="{{route('redirectToProvider' , 'google')}}"><img src="{{asset('dashboard/images/Google.png')}}"></a>
+        </div>
     </form>
 </x-guest-layout>
